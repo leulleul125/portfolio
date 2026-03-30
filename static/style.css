@@ -1,45 +1,19 @@
 body{
-    margin: 0;
-
+    line-height: 25px;
+    background: linear-gradient(135deg ,#aeacac 0%, #d3d2d2 50%);
 }
-nav{
-    background-color: rgb(0, 152, 91);
-    color: aliceblue;
-    padding: 10px;
+.navbar{
+    background: linear-gradient(135deg, #000000 0%, #212121 60%, #000000 60% );
 }
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.card{
+    background: linear-gradient(135deg, #000000 0%, #212121 70%);
 }
-.nav-name{
-    color: aliceblue;
-    font-size: 1.5rem;
-    text-decoration: none;
-    margin: 10px;
+#submit-btn{
+    background: linear-gradient(135deg, #000000 0%, #212121 70%);
 }
-.nav-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#pop-text{
+    background: linear-gradient(135deg, #000000 0%, #212121 70%);
 }
-.nav-links a{
-    text-decoration: underline;
-    color: aliceblue;
-    font-size: 0.9rem;
-    margin: 10px;
-}
-.project-grid{
-    display: flex;
-    align-items: flex-end;
-}
-.project-card{
-    border: 1px solid rgb(0,0,0);
-    border-radius: 15px;
-    width: 300px;
-    padding: 20px;
-    margin: 10px;
-}
-footer{
-    border: 1px solid rgb(129, 126, 126);
+.nav-link{
+    font-size: 1.1rem;
 }
